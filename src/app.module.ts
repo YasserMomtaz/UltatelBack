@@ -14,11 +14,11 @@ import { User } from './auth/user.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost', 
+      host: 'b23h3m0soucma6btbuqa-mysql.services.clever-cloud.com', 
       port: 3306, // Default MySQL port
-      username: 'root', 
-      password: '123456', 
-      database: 'student', 
+      username: 'uyrz1ethh9jebwpq', 
+      password: 'mGGgZz4T2tCF2xLwdkH5', 
+      database: 'b23h3m0soucma6btbuqa',
       entities: [Student,User],
       synchronize: true,
     }),
